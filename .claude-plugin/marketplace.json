@@ -1,18 +1,20 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "deep-solver-marketplace",
+  "description": "Omni-Cognitive Deep Solver: マルチエージェント並列推論による超階層的問題解決プラグイン",
   "owner": {
-    "name": "daito-dot",
-    "email": "daito-dot@users.noreply.github.com"
-  },
-  "metadata": {
-    "description": "Omni-Cognitive Deep Solver: マルチエージェント並列推論による超階層的問題解決プラグイン"
+    "name": "daito-dot"
   },
   "plugins": [
     {
       "name": "deep-solver",
-      "version": "1.0.0",
       "description": "Omni-Cognitive Deep Solver: Gemini Deep Think的並列仮説生成とGrok Heavy的マルチエージェント合議を統合した、未知の課題に対する超階層的問題解決プラグイン",
-      "source": "./deep-solver"
+      "author": {
+        "name": "daito-dot"
+      },
+      "source": "./deep-solver",
+      "category": "development",
+      "homepage": "https://github.com/daito-dot/deep-solver"
     }
   ]
 }
