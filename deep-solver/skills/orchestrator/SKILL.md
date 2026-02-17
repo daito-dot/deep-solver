@@ -2,9 +2,6 @@
 name: orchestrator
 description: "課題の複雑度を分析し、最適な推論メカニズムの組み合わせを設計する内部スキル。solve スキルから呼び出される。"
 disable-model-invocation: true
-context: fork
-agent: general-purpose
-allowed-tools: Read, Grep, Glob, WebSearch, WebFetch
 ---
 
 # Meta-Orchestrator: 推論戦略の設計者
